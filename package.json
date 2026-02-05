@@ -1,17 +1,18 @@
 {
-  "name": "@uniswap/v3-staker",
-  "description": "Canonical liquidity mining contract for Uniswap V3",
+  "name": "@etcswap/v3-staker",
+  "description": "Canonical liquidity mining contract for ETCswap V3",
   "license": "GPL-3.0-or-later",
   "version": "1.0.2",
-  "homepage": "https://uniswap.org",
+  "homepage": "https://etcswap.org",
   "keywords": [
-    "uniswap",
+    "etcswap",
+    "ethereum-classic",
     "liquidity mining",
     "v3"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v3-staker"
+    "url": "https://github.com/etcswap/v3-staker"
   },
   "files": [
     "contracts",
@@ -25,9 +26,9 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "3.4.1-solc-0.7-2",
-    "@uniswap/v3-core": "1.0.0",
-    "@uniswap/v3-periphery": "^1.0.1"
+    "@etcswap/v3-core": "file:../v3-core",
+    "@etcswap/v3-periphery": "file:../v3-periphery",
+    "@openzeppelin/contracts": "3.4.1-solc-0.7-2"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
