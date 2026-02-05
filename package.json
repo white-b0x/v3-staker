@@ -26,8 +26,8 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@etcswap/v3-core": "file:../v3-core",
-    "@etcswap/v3-periphery": "file:../v3-periphery",
+    "@etcswap/v3-core": "github:white-b0x/v3-core#etc",
+    "@etcswap/v3-periphery": "github:white-b0x/v3-periphery#etc",
     "@openzeppelin/contracts": "3.4.1-solc-0.7-2"
   },
   "devDependencies": {
